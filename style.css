@@ -1,0 +1,86 @@
+
+body {
+    background-color: #000;
+    color: #00ff00; 
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#terminal-container {
+    padding: 20px;
+    flex: 1; 
+    padding-bottom: 150px; 
+    overflow-y: auto;
+}
+
+
+#header pre {
+    color: #00ff00;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+}
+
+
+.input-line {
+    display: flex; 
+    align-items: center;
+    width: 100%;
+}
+
+.prompt {
+    color: #ff4d4d; 
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+#command-input {
+    background: transparent;
+    border: none;
+    color: #00ff00;
+    outline: none;
+    flex-grow: 1;
+    font-family: inherit;
+    font-size: 1em;
+}
+
+
+.highlight {
+    color: #bb86fc; 
+    font-weight: bold;
+}
+
+
+.footer-links {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+}
+
+
+.footer-links p {
+    margin: 5px 0;
+    color: #888;
+    font-size: 0.8em;
+}
+
+.social-icons a {
+    color: #bb86fc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #03dac6;
+    text-decoration: underline;
+}

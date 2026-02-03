@@ -3,6 +3,7 @@ const output = document.getElementById('output');
 
 const commands = {
     
+    
     help: "Available commands: <br> [whoami] [skills] [projects] [experience] [achievements] [certifications] [clear]",
     
     whoami: "MANSI SINGH<br>Mansi Singh is a dedicated Computer Science undergraduate at VIT Bhopal University and specializes in cybersecurity, digital forensics and software development. With expertise in ethical hacking, network security, and secure coding, she tackles digital defense challenges with a sharp analytical mindset and dedication to excellence. She actively engages in various CTF competitions, refining her skills in vulnerability analysis, reverse engineering, and penetration testing. Her involvement in cybersecurity communities keeps her updated on industry trends, encourages collaboration, and strengthens her ability to secure digital systems. Beyond technical skills, she excels in leadership and teamwork. In university clubs, she leads initiatives that foster collaboration, innovation, and knowledge-sharing among peers. Her blend of technical expertise and strong communication skills distinguishes her in both academic and professional settings. Her commitment to cybersecurity, paired with leadership and passion for technology, positions her as a promising professional ready to make impactful contributions to the field.",
@@ -38,6 +39,7 @@ techniques, enhancing problem-solving discussions within the coding community.
         <br><span class='highlight'>Leadership:</span>  Content team lead at iOS Club and Non-Tech domain lead at Cyber Warriors Club.
         
     `,
+    
 };
 
 input.addEventListener('keydown', (e) => {

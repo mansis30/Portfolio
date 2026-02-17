@@ -17,10 +17,10 @@ const commands = {
         
     projects: `
         <br><span class='highlight'>1. Pictoshield:</span> A secure graphical password authentication system to replace traditional text-based passwords..
-        <br><span class='highlight'>2. SixFourMix:</span> A lightweight tool that supports multiple cryptographic primitives including Encodings and Ciphers.
-        <br><span class='highlight'>2. SecureScan:</span> A CLI tool for performing real-time website security and vulnerability analysis.`,
-    
-    experience: `
+        <br><span class='highlight'>2. SecureScan:</span> A CLI tool for performing real-time website security and vulnerability analysis..
+        <br><span class='highlight'>3. SixFourMix:</span> A lightweight tool that supports multiple cryptographic primitives including Encodings and Ciphers..
+        <br><span class='highlight'>4. Invisibit:</span> A Python-based Steganography tool to hide secret messages within images. `,
+        experience: `
         <br><span class='highlight'>Cyber Security Intern @ Elevate Labs:</span> Performed security scans using Nmap/OpenVAS and hardened systems.
         <br><span class='highlight'>Cyber Security Intern @ Codec Technologies:</span> Focused on web security (OWASP Top 10) and ethical hacking.`,
         
